@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_WmOhMFBjEeO0Na5Pz9ag6g" name="model">
-  <packagedElement xmi:type="uml:Class" xmi:id="_b5RvMFBjEeO0Na5Pz9ag6g" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_b5RvMFBjEeO0Na5Pz9ag6g" name="Lehrveranstaltung"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AmPeAFByEeO0Na5Pz9ag6g" name="Durchführung"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lx6OsFEHEeOIQZCCvjBXOw" name="Raum"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mgX3MFEHEeOIQZCCvjBXOw" name="Dozent"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LGopcFEIEeOIQZCCvjBXOw" name="Zeitslot"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_F9clQFEMEeOIQZCCvjBXOw" name="Semesterverband"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ISysAFEMEeOIQZCCvjBXOw" name="ZeitslotMapper"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QdhcUFENEeOIQZCCvjBXOw" name="Business Object"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_c6UUMFENEeOIQZCCvjBXOw" name="RaumMapper"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hy5MsFENEeOIQZCCvjBXOw" name="DurchführungMapper"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qRCdsFENEeOIQZCCvjBXOw" name="DozentMapper"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sDersFENEeOIQZCCvjBXOw" name="SemesterverbandMapper"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uKFy4FENEeOIQZCCvjBXOw" name="LehrveranstaltungMapper"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_gT2mYFEOEeOIQZCCvjBXOw" name="Serializable"/>
 </uml:Model>

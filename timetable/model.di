@@ -7,12 +7,21 @@
     <availablePage>
       <emfPageIdentifier href="model.notation#_aLk3QFBjEeO0Na5Pz9ag6g"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model.notation#_hV5DsFB1EeOIQZCCvjBXOw"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="model.notation#_qAMhYFB1EeOIQZCCvjBXOw"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
           <emfPageIdentifier href="model.notation#_aLk3QFBjEeO0Na5Pz9ag6g"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="model.notation#_qAMhYFB1EeOIQZCCvjBXOw"/>
         </children>
       </children>
     </windows>
