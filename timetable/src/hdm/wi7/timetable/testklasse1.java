@@ -9,6 +9,8 @@ public class testklasse1 {
 		System.out.println("ALLAHUAKBAR");
 		System.out.println("LOLOLOLOLOLOL");
 		System.out.println("MERGE");
+		
+		//Schwanz lan Schwanz
 		System.out.println("WAS GEHT AAB!!");
 	}
 
