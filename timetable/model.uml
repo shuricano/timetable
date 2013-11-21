@@ -93,6 +93,4 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_so7d81EUEeOIQZCCvjBXOw" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_H1EpsFEWEeOIQZCCvjBXOw" clientDependency="_JPEigFEWEeOIQZCCvjBXOw" name="Serializable"/>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_JPEigFEWEeOIQZCCvjBXOw" name="Dependency1" client="_H1EpsFEWEeOIQZCCvjBXOw" supplier="_QdhcUFENEeOIQZCCvjBXOw"/>
 </uml:Model>
