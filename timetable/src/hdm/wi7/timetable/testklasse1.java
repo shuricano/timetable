@@ -11,6 +11,8 @@ public class testklasse1 {
 		System.out.println("MERGE");
 		System.out.println("Habt ihr das bekommen?");
 		System.out.println("jaaaa");
+		System.out.println("MERGE");
+		System.out.println("Habt ihr das bekommen?");
 	}
 
 }
