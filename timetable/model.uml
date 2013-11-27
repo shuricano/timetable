@@ -1,61 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_WmOhMFBjEeO0Na5Pz9ag6g" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Zvll0FdpEeOo-L-LBXo7ag">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fhTFwFdpEeOo-L-LBXo7ag">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_b5RvMFBjEeO0Na5Pz9ag6g" name="Lehrveranstaltung">
-    <generalization xmi:type="uml:Generalization" xmi:id="_E0qMsFEWEeOIQZCCvjBXOw" general="_QdhcUFENEeOIQZCCvjBXOw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_nMbZAFEUEeOIQZCCvjBXOw" name="lehrveranstaltungMapper" type="_uKFy4FENEeOIQZCCvjBXOw" association="_nMdOMFEUEeOIQZCCvjBXOw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nMbZAVEUEeOIQZCCvjBXOw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nMbZAlEUEeOIQZCCvjBXOw" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_AmPeAFByEeO0Na5Pz9ag6g" name="Durchführung">
-    <generalization xmi:type="uml:Generalization" xmi:id="_BTJ00FEWEeOIQZCCvjBXOw" general="_QdhcUFENEeOIQZCCvjBXOw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_so6P0FEUEeOIQZCCvjBXOw" name="durchführungMapper" type="_hy5MsFENEeOIQZCCvjBXOw" association="_so7d8FEUEeOIQZCCvjBXOw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_so6P0VEUEeOIQZCCvjBXOw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_so6P0lEUEeOIQZCCvjBXOw" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_mgX3MFEHEeOIQZCCvjBXOw" name="Dozent">
-    <generalization xmi:type="uml:Generalization" xmi:id="_DVL-AFEWEeOIQZCCvjBXOw" general="_QdhcUFENEeOIQZCCvjBXOw"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_1OWREFETEeOIQZCCvjBXOw" name="dozentMapper" type="_qRCdsFENEeOIQZCCvjBXOw" association="_1OZ7cFETEeOIQZCCvjBXOw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1OWREVETEeOIQZCCvjBXOw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1OWRElETEeOIQZCCvjBXOw" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_LGopcFEIEeOIQZCCvjBXOw" name="Zeitslot">
-    <ownedComment xmi:type="uml:Comment" xmi:id="_FIse0FEdEeOIQZCCvjBXOw" annotatedElement="_LGopcFEIEeOIQZCCvjBXOw">
-      <body>methode</body>
-    </ownedComment>
-    <generalization xmi:type="uml:Generalization" xmi:id="_ESNm8FEWEeOIQZCCvjBXOw" general="_QdhcUFENEeOIQZCCvjBXOw"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_ov598FEUEeOIQZCCvjBXOw" name="zeitslotMapper" type="_ISysAFEMEeOIQZCCvjBXOw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ov598VEUEeOIQZCCvjBXOw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ov598lEUEeOIQZCCvjBXOw" value="1"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_qP6YIFEUEeOIQZCCvjBXOw" name="zeitslotMapper" type="_ISysAFEMEeOIQZCCvjBXOw" association="_qP7mQFEUEeOIQZCCvjBXOw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qP6YIVEUEeOIQZCCvjBXOw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qP6YIlEUEeOIQZCCvjBXOw" value="1"/>
-    </ownedAttribute>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mgX3MFEHEeOIQZCCvjBXOw" name="Instructor">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qhtV0FeCEeOo-L-LBXo7ag" name="instructorFirstName"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ux_CwFeDEeOo-L-LBXo7ag" name="setInstructorName"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_0b4qgFeDEeOo-L-LBXo7ag" name="getInstructorName"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_F9clQFEMEeOIQZCCvjBXOw" name="Semesterverband">
-    <generalization xmi:type="uml:Generalization" xmi:id="_FWZn0FEWEeOIQZCCvjBXOw" general="_QdhcUFENEeOIQZCCvjBXOw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_fMixUFEUEeOIQZCCvjBXOw" name="semesterverbandMapper" type="_sDersFENEeOIQZCCvjBXOw" association="_fMkmgFEUEeOIQZCCvjBXOw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fMixUVEUEeOIQZCCvjBXOw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fMixUlEUEeOIQZCCvjBXOw" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_ISysAFEMEeOIQZCCvjBXOw" name="ZeitslotMapper"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_QdhcUFENEeOIQZCCvjBXOw" name="BusinessObject"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QdhcUFENEeOIQZCCvjBXOw" name="TimetableObject">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rP9P0FdqEeOo-L-LBXo7ag" name="versionID" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nu-44FdpEeOo-L-LBXo7ag" name="id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_olXOoFdmEeOo-L-LBXo7ag" name="getID"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_05ZMEFdmEeOo-L-LBXo7ag" name="setID"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4rasMFdmEeOo-L-LBXo7ag" name="equals"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_561ssFdmEeOo-L-LBXo7ag" name="hashcode"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_c6UUMFENEeOIQZCCvjBXOw" name="RaumMapper"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_hy5MsFENEeOIQZCCvjBXOw" name="DurchführungMapper"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_qRCdsFENEeOIQZCCvjBXOw" name="DozentMapper"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_sDersFENEeOIQZCCvjBXOw" name="SemesterverbandMapper"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_uKFy4FENEeOIQZCCvjBXOw" name="LehrveranstaltungMapper"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_PsA4IFETEeOIQZCCvjBXOw" name="StundenplanVerwaltung"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_1OZ7cFETEeOIQZCCvjBXOw" name="" memberEnd="_1OZ7cVETEeOIQZCCvjBXOw _1OWREFETEeOIQZCCvjBXOw">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_1OZ7cVETEeOIQZCCvjBXOw" name="dozent" type="_mgX3MFEHEeOIQZCCvjBXOw" association="_1OZ7cFETEeOIQZCCvjBXOw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1OZ7clETEeOIQZCCvjBXOw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1OZ7c1ETEeOIQZCCvjBXOw" value="1"/>
-    </ownedEnd>
-  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PsA4IFETEeOIQZCCvjBXOw" name="TimetableAdministrationImpl"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_fMkmgFEUEeOIQZCCvjBXOw" name="" memberEnd="_fMkmgVEUEeOIQZCCvjBXOw _fMixUFEUEeOIQZCCvjBXOw">
     <ownedEnd xmi:type="uml:Property" xmi:id="_fMkmgVEUEeOIQZCCvjBXOw" name="semesterverband" type="_F9clQFEMEeOIQZCCvjBXOw" association="_fMkmgFEUEeOIQZCCvjBXOw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fMkmglEUEeOIQZCCvjBXOw" value="1"/>
@@ -68,17 +60,27 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nMdOM1EUEeOIQZCCvjBXOw" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_qP7mQFEUEeOIQZCCvjBXOw" name="" memberEnd="_qP7mQVEUEeOIQZCCvjBXOw _qP6YIFEUEeOIQZCCvjBXOw">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_qP7mQVEUEeOIQZCCvjBXOw" name="zeitslot" type="_LGopcFEIEeOIQZCCvjBXOw" association="_qP7mQFEUEeOIQZCCvjBXOw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qP7mQlEUEeOIQZCCvjBXOw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qP7mQ1EUEeOIQZCCvjBXOw" value="1"/>
-    </ownedEnd>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_so7d8FEUEeOIQZCCvjBXOw" name="" memberEnd="_so7d8VEUEeOIQZCCvjBXOw _so6P0FEUEeOIQZCCvjBXOw">
     <ownedEnd xmi:type="uml:Property" xmi:id="_so7d8VEUEeOIQZCCvjBXOw" name="durchführung" type="_AmPeAFByEeO0Na5Pz9ag6g" association="_so7d8FEUEeOIQZCCvjBXOw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_so7d8lEUEeOIQZCCvjBXOw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_so7d81EUEeOIQZCCvjBXOw" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_QgQygFdIEeOo-L-LBXo7ag" name="Raum"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QgQygFdIEeOo-L-LBXo7ag" name="Room">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ecIJQFdwEeOo-L-LBXo7ag" general="_QdhcUFENEeOIQZCCvjBXOw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wuk9MFeBEeOo-L-LBXo7ag" name="roomNumber">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3HIasFeBEeOo-L-LBXo7ag" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3HJo0FeBEeOo-L-LBXo7ag" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_92U2kFeBEeOo-L-LBXo7ag" name="roomCapacity">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ExeDwFeCEeOo-L-LBXo7ag" name="getRoomNumber"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HUk5sFeCEeOo-L-LBXo7ag" name="setRoomNumber"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MBfUwFeCEeOo-L-LBXo7ag" name="getRoomCapacity"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PCxUcFeCEeOo-L-LBXo7ag" name="setRoomCapacity"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_McYrkFeDEeOo-L-LBXo7ag" name="toString"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9bzi8FdvEeOo-L-LBXo7ag" name="Slot"/>
 </uml:Model>
