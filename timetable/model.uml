@@ -14,13 +14,6 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_so6P0lEUEeOIQZCCvjBXOw" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_lx6OsFEHEeOIQZCCvjBXOw" name="Raum">
-    <generalization xmi:type="uml:Generalization" xmi:id="_Cv9xEFEWEeOIQZCCvjBXOw" general="_QdhcUFENEeOIQZCCvjBXOw"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_rBY4YFEUEeOIQZCCvjBXOw" name="raumMapper" type="_c6UUMFENEeOIQZCCvjBXOw" association="_rBatkFEUEeOIQZCCvjBXOw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rBY4YVEUEeOIQZCCvjBXOw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rBY4YlEUEeOIQZCCvjBXOw" value="1"/>
-    </ownedAttribute>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_mgX3MFEHEeOIQZCCvjBXOw" name="Dozent">
     <generalization xmi:type="uml:Generalization" xmi:id="_DVL-AFEWEeOIQZCCvjBXOw" general="_QdhcUFENEeOIQZCCvjBXOw"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_1OWREFETEeOIQZCCvjBXOw" name="dozentMapper" type="_qRCdsFENEeOIQZCCvjBXOw" association="_1OZ7cFETEeOIQZCCvjBXOw">
@@ -81,16 +74,11 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qP7mQ1EUEeOIQZCCvjBXOw" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_rBatkFEUEeOIQZCCvjBXOw" name="" memberEnd="_rBatkVEUEeOIQZCCvjBXOw _rBY4YFEUEeOIQZCCvjBXOw">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_rBatkVEUEeOIQZCCvjBXOw" name="raum" type="_lx6OsFEHEeOIQZCCvjBXOw" association="_rBatkFEUEeOIQZCCvjBXOw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rBatklEUEeOIQZCCvjBXOw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rBatk1EUEeOIQZCCvjBXOw" value="1"/>
-    </ownedEnd>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_so7d8FEUEeOIQZCCvjBXOw" name="" memberEnd="_so7d8VEUEeOIQZCCvjBXOw _so6P0FEUEeOIQZCCvjBXOw">
     <ownedEnd xmi:type="uml:Property" xmi:id="_so7d8VEUEeOIQZCCvjBXOw" name="durchführung" type="_AmPeAFByEeO0Na5Pz9ag6g" association="_so7d8FEUEeOIQZCCvjBXOw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_so7d8lEUEeOIQZCCvjBXOw" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_so7d81EUEeOIQZCCvjBXOw" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QgQygFdIEeOo-L-LBXo7ag" name="Raum"/>
 </uml:Model>
