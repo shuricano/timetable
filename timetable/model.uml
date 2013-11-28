@@ -57,6 +57,8 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_AvRAgFesEeO0GflFq--I3Q" name="getStudiengang"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_Cf20YFesEeO0GflFq--I3Q" name="setStudiengang"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_DuqJ0FesEeO0GflFq--I3Q" name="toString"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9hHnQFhgEeOdCd7-Wzx8tA" name="getAnzahlStudierender"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__jMMsFhgEeOdCd7-Wzx8tA" name="setAnzahlStudierender"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_ISysAFEMEeOIQZCCvjBXOw" name="ZeitslotMapper">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_F0SdUFgfEeO0GflFq--I3Q" name="ZeitslotMapper" visibility="protected"/>
@@ -132,8 +134,8 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_92U2kFeBEeOo-L-LBXo7ag" name="raumKapazitaet" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_ExeDwFeCEeOo-L-LBXo7ag" name="getRaumNumber"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_HUk5sFeCEeOo-L-LBXo7ag" name="setRaumNumber"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ExeDwFeCEeOo-L-LBXo7ag" name="getRaumNummer"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HUk5sFeCEeOo-L-LBXo7ag" name="setRaumNummer"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_MBfUwFeCEeOo-L-LBXo7ag" name="getRaumKapazitaet"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_PCxUcFeCEeOo-L-LBXo7ag" name="setRaumKapazitaet"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_McYrkFeDEeOo-L-LBXo7ag" name="toString"/>
