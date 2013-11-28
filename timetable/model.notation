@@ -1568,7 +1568,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eInsqVhbEeOdCd7-Wzx8tA"/>
       </children>
       <element xmi:type="uml:Class" href="model.uml#_eIUxsFhbEeOdCd7-Wzx8tA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eIi0IVhbEeOdCd7-Wzx8tA" x="955" y="25" width="181" height="211"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eIi0IVhbEeOdCd7-Wzx8tA" x="960" y="25" width="181" height="211"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_5NuRsFhbEeOdCd7-Wzx8tA" type="2097" fontName="Segoe UI" lineColor="0">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Nvf0FhbEeOdCd7-Wzx8tA" source="ShadowFigure">
