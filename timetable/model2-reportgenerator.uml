@@ -10,11 +10,11 @@
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_anPQwFiAEeOlP-zH--Qxtg" type="_TvxpsFiAEeOlP-zH--Qxtg" direction="return"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_FFOrYFiBEeOlP-zH--Qxtg" name="getAllDurchführungenOfRaumReport">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3IcyAFiBEeOlP-zH--Qxtg" type="_CaKMQFiBEeOlP-zH--Qxtg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3IcyAFiBEeOlP-zH--Qxtg" type="_SxzhYFiHEeOlP-zH--Qxtg" direction="return"/>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_5pqKgFiBEeOlP-zH--Qxtg" visibility="private" type="_pMkF8FiBEeOlP-zH--Qxtg"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OrA54FiBEeOlP-zH--Qxtg" name="getAllDurchführungenOfSemesterverbandReport">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Sf12YFiBEeOlP-zH--Qxtg" type="_CaKMQFiBEeOlP-zH--Qxtg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Sf12YFiBEeOlP-zH--Qxtg" type="_1pP6AFiKEeOlP-zH--Qxtg" direction="return"/>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_MivJUFiCEeOlP-zH--Qxtg" visibility="private" type="_sFPjQFiBEeOlP-zH--Qxtg"/>
     </ownedOperation>
   </packagedElement>
@@ -28,11 +28,11 @@
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_q7yycFiCEeOlP-zH--Qxtg" type="_k6rr8Fh_EeOlP-zH--Qxtg" direction="return"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_4bp0YFiDEeOlP-zH--Qxtg" name="getAllDurchführungenOfRaumReport">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_L6rY4FiEEeOlP-zH--Qxtg" type="_CaKMQFiBEeOlP-zH--Qxtg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_L6rY4FiEEeOlP-zH--Qxtg" type="_SxzhYFiHEeOlP-zH--Qxtg" direction="return"/>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_R-Z14FiEEeOlP-zH--Qxtg" visibility="private" type="_pMkF8FiBEeOlP-zH--Qxtg"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_Ty-K0FiEEeOlP-zH--Qxtg" name="getAllDurchführungenOfSemesterverbandReport">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y1S1MFiEEeOlP-zH--Qxtg" type="_CaKMQFiBEeOlP-zH--Qxtg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y1S1MFiEEeOlP-zH--Qxtg" type="_1pP6AFiKEeOlP-zH--Qxtg" direction="return"/>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_ctkHQFiEEeOlP-zH--Qxtg" visibility="private" type="_sFPjQFiBEeOlP-zH--Qxtg"/>
     </ownedOperation>
   </packagedElement>
@@ -46,13 +46,19 @@
         <body>getAllDurchführungenOfRaumReport</body>
       </ownedComment>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_5IujgFiIEeOlP-zH--Qxtg" type="_k6rr8Fh_EeOlP-zH--Qxtg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__c2FkFiLEeOlP-zH--Qxtg" visibility="private" type="_pMkF8FiBEeOlP-zH--Qxtg"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_A_eV8FiMEeOlP-zH--Qxtg" visibility="private" type="_QaE4MFiLEeOlP-zH--Qxtg"/>
     </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_yiWFYFiIEeOlP-zH--Qxtg" name="getAllDurchführungenofSemesterverbandReport">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_7C0RoFiIEeOlP-zH--Qxtg" type="_k6rr8Fh_EeOlP-zH--Qxtg" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_EZrzAFiMEeOlP-zH--Qxtg" visibility="private" type="_jKr3gFiLEeOlP-zH--Qxtg"/>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Realization" xmi:id="_9-IJAFiEEeOlP-zH--Qxtg" name="Realization1" client="_zDtC0FiEEeOlP-zH--Qxtg" supplier="_bIDz8FiCEeOlP-zH--Qxtg"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_gEGTUFiGEeOlP-zH--Qxtg" name="AsyncCallback&lt;void>"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_HtopUFiHEeOlP-zH--Qxtg" name="AsyncCallback&lt;AllRaumReport>"/>
-  <packagedElement xmi:type="uml:DataType" xmi:id="_SxzhYFiHEeOlP-zH--Qxtg" name="DataType2"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_SxzhYFiHEeOlP-zH--Qxtg" name="AllDurchführungenOfRaumReport"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_1pP6AFiKEeOlP-zH--Qxtg" name="AllDurchführungenOfSemesterverbandReport"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_QaE4MFiLEeOlP-zH--Qxtg" name="AsyncCallback&lt;AllDurchführungenOfRaumReport>"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_jKr3gFiLEeOlP-zH--Qxtg" name="AsyncCallback&lt;AllDurchführungenOfSemesterverbandReport>"/>
 </uml:Model>

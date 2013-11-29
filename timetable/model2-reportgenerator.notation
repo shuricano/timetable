@@ -56,7 +56,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExuLdFh_EeOlP-zH--Qxtg"/>
     </children>
     <element xmi:type="uml:Class" href="model2-reportgenerator.uml#_EwNvkFh_EeOlP-zH--Qxtg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExilQVh_EeOlP-zH--Qxtg" x="80" y="65" width="461" height="206"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ExilQVh_EeOlP-zH--Qxtg" x="-60" y="60" width="586" height="206"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_bIGQMFiCEeOlP-zH--Qxtg" type="2004" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bIHeUFiCEeOlP-zH--Qxtg" source="ShadowFigure">
@@ -106,7 +106,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bIIseViCEeOlP-zH--Qxtg"/>
     </children>
     <element xmi:type="uml:Interface" href="model2-reportgenerator.uml#_bIDz8FiCEeOlP-zH--Qxtg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bIGQMViCEeOlP-zH--Qxtg" x="745" y="60" width="446" height="206"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bIGQMViCEeOlP-zH--Qxtg" x="745" y="60" width="536" height="206"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_zDvfEFiEEeOlP-zH--Qxtg" type="2004" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zDwtMFiEEeOlP-zH--Qxtg" source="ShadowFigure">
@@ -134,10 +134,16 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_WO3TkViGEeOlP-zH--Qxtg"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_Q6YswFiHEeOlP-zH--Qxtg" type="3007" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6CfVsFiLEeOlP-zH--Qxtg" source="CustomAppearance_Annotation">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6ITCwFiLEeOlP-zH--Qxtg" key="CustomAppearance_MaskValue" value="778"/>
+        </eAnnotations>
         <element xmi:type="uml:Operation" href="model2-reportgenerator.uml#_Q6VpcFiHEeOlP-zH--Qxtg"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Q6YswViHEeOlP-zH--Qxtg"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_yiX6kFiIEeOlP-zH--Qxtg" type="3007" fontName="Segoe UI" lineColor="0">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FedCsFiMEeOlP-zH--Qxtg" source="CustomAppearance_Annotation">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FipmMFiMEeOlP-zH--Qxtg" key="CustomAppearance_MaskValue" value="778"/>
+        </eAnnotations>
         <element xmi:type="uml:Operation" href="model2-reportgenerator.uml#_yiWFYFiIEeOlP-zH--Qxtg"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_yiX6kViIEeOlP-zH--Qxtg"/>
       </children>
@@ -153,7 +159,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zDx7VFiEEeOlP-zH--Qxtg"/>
     </children>
     <element xmi:type="uml:Interface" href="model2-reportgenerator.uml#_zDtC0FiEEeOlP-zH--Qxtg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zDvfEViEEeOlP-zH--Qxtg" x="475" y="340" width="396" height="181"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zDvfEViEEeOlP-zH--Qxtg" x="185" y="345" width="716" height="181"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_vOGR8Vh-EeOlP-zH--Qxtg"/>
   <element xmi:type="uml:Model" href="model2-reportgenerator.uml#_vNDJEFh-EeOlP-zH--Qxtg"/>
