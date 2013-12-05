@@ -17,14 +17,14 @@ public class Dozent extends TimetableObject {
 	}
 	
 	public String getDozentNachname(){
-		return this.dozentNachname;
+		return dozentNachname;
 	}
 	
 	public String setDozentNachname(){
-		return this.dozentNachname; 
+		return dozentNachname; 
 	}
 	
 	public String toString(){
-		return this.dozentVorname + " " + this.dozentNachname;
+		return dozentVorname + " " + dozentNachname;
 	}
 }
