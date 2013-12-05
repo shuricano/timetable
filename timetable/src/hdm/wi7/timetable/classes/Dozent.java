@@ -4,5 +4,7 @@ public class Dozent extends TimetableObject {
 
 	private static final long serialVersionUID = 1L;
 	
-	//Erich arbeitet hier.
+	private String dozentVorname = null;
+	private String dozentNachname = null;
+	
 }
