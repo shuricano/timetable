@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_vNDJEFh-EeOlP-zH--Qxtg" name="model">
-  <packagedElement xmi:type="uml:Class" xmi:id="_EwNvkFh_EeOlP-zH--Qxtg" name="ReportGeneratorImpl">
-    <generalization xmi:type="uml:Generalization" xmi:id="_kKD_8FiCEeOlP-zH--Qxtg" general="_bIDz8FiCEeOlP-zH--Qxtg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EwNvkFh_EeOlP-zH--Qxtg" clientDependency="_Dk1WwFkdEeOJA4lpfISujw _1ZEoYFksEeOJA4lpfISujw" name="ReportGeneratorImpl">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Dk1WwFkdEeOJA4lpfISujw" name="InterfaceRealization1" client="_EwNvkFh_EeOlP-zH--Qxtg" supplier="_vPa80FkcEeOJA4lpfISujw" contract="_vPa80FkcEeOJA4lpfISujw"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_1ZEoYFksEeOJA4lpfISujw" name="InterfaceRealization2" client="_EwNvkFh_EeOlP-zH--Qxtg" supplier="_bIDz8FiCEeOlP-zH--Qxtg" contract="_bIDz8FiCEeOlP-zH--Qxtg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_IdddYFh_EeOlP-zH--Qxtg" name="reportGeneratorImpl"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_eOvYYFh_EeOlP-zH--Qxtg" name="init">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_uJxRsFh_EeOlP-zH--Qxtg" type="_k6rr8Fh_EeOlP-zH--Qxtg" direction="return"/>
@@ -36,7 +37,7 @@
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_ctkHQFiEEeOlP-zH--Qxtg" visibility="private" type="_sFPjQFiBEeOlP-zH--Qxtg"/>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_zDtC0FiEEeOlP-zH--Qxtg" clientDependency="_9-IJAFiEEeOlP-zH--Qxtg" name="ReportGeneratorAsync">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_zDtC0FiEEeOlP-zH--Qxtg" name="ReportGeneratorAsync">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_WO03UFiGEeOlP-zH--Qxtg" name="init">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_A6uyIFiHEeOlP-zH--Qxtg" visibility="private" type="_gEGTUFiGEeOlP-zH--Qxtg"/>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_ErBz8FiHEeOlP-zH--Qxtg" type="_k6rr8Fh_EeOlP-zH--Qxtg" direction="return"/>
@@ -54,11 +55,11 @@
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_EZrzAFiMEeOlP-zH--Qxtg" visibility="private" type="_jKr3gFiLEeOlP-zH--Qxtg"/>
     </ownedOperation>
   </packagedElement>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_9-IJAFiEEeOlP-zH--Qxtg" name="Realization1" client="_zDtC0FiEEeOlP-zH--Qxtg" supplier="_bIDz8FiCEeOlP-zH--Qxtg"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_gEGTUFiGEeOlP-zH--Qxtg" name="AsyncCallback&lt;void>"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_HtopUFiHEeOlP-zH--Qxtg" name="AsyncCallback&lt;AllRaumReport>"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_SxzhYFiHEeOlP-zH--Qxtg" name="AllDurchführungenOfRaumReport"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_1pP6AFiKEeOlP-zH--Qxtg" name="AllDurchführungenOfSemesterverbandReport"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_QaE4MFiLEeOlP-zH--Qxtg" name="AsyncCallback&lt;AllDurchführungenOfRaumReport>"/>
   <packagedElement xmi:type="uml:DataType" xmi:id="_jKr3gFiLEeOlP-zH--Qxtg" name="AsyncCallback&lt;AllDurchführungenOfSemesterverbandReport>"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_vPa80FkcEeOJA4lpfISujw" name="TimetableAdministration"/>
 </uml:Model>
