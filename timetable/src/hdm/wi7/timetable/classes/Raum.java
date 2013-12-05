@@ -7,5 +7,9 @@ public class Raum extends TimetableObject {
 	private short raumNummer = 0;
 	private int Kapazität = 0;
 	//Alex arbeitet hier, und testet diese funktion von git
+
+	public short getRaumNummer() {
+		return raumNummer;
+	}
 	
 }
