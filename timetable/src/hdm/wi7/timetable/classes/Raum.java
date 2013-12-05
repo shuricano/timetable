@@ -6,5 +6,6 @@ public class Raum extends TimetableObject {
 
 	private short raumNummer = 0;
 	private int Kapazität = 0;
+	//Alex arbeitet hier
 	
 }
