@@ -8,4 +8,9 @@ public class Dozent extends TimetableObject {
 	private String dozentNachname = null;
 	
 	// Erich arbeitet hier, test pull and push
+	
+	public String setDozentVorname(){
+		
+		return dozentVorname;
+	}
 }
