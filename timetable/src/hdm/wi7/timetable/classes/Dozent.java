@@ -12,16 +12,16 @@ public class Dozent extends TimetableObject {
 		return this.dozentVorname; 
 	}
 	
-	public String setDozentVorname(){
-		return dozentVorname;
+	public void setDozentVorname(String vorname){
+		dozentVorname = vorname;
 	}
 	
 	public String getDozentNachname(){
 		return dozentNachname;
 	}
 	
-	public String setDozentNachname(){
-		return dozentNachname; 
+	public void setDozentNachname(String nachname){
+		dozentNachname = nachname; 
 	}
 	
 	public String toString(){
