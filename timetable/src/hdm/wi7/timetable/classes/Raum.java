@@ -13,8 +13,8 @@ public class Raum extends TimetableObject {
 		return raumNummer;
 	}
 	
-	public short setRaumNummer(){
-		return raumNummer;
+	public void setRaumNummer(int raumnr){
+		raumNummer = raumnr;
 	} 
 
 	public int getRaumKapazität(){
