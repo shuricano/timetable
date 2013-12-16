@@ -9,6 +9,7 @@ public class Raum extends TimetableObject {
 	//Alex arbeitet hier, und testet diese funktion von git
 
 	public short getRaumNummer() {
+		raumNummer = 
 		return raumNummer;
 	}
 	
