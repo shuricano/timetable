@@ -2,6 +2,8 @@ package hdm.wi7.timetable.classes;
 
 import java.io.Serializable;
 
+
+
 public class TimetableObject implements Serializable {
 	
 	//Version des Serializable Interfaces	
@@ -18,20 +20,17 @@ public class TimetableObject implements Serializable {
 		this.id = id;
 	}
 	
+	
+	
+	
+	
+	
+	
 	public int hashcode() {
 		return this.id;
 	}
 	
 	
-	//@author thies
-	public boolean equals(Object o) {
-	if (o != null && o instanceof TimetableObject){
-		try ()
-	}
-	
-	}
-	
-	
-}
+}	
 
 
