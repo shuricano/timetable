@@ -4,6 +4,7 @@ public class Zeitslot extends TimetableObject {
 
 	private static final long serialVersionUID = 1L;
 	
+	
 	private int startzeit;
 	private int endzeit;
 	private String wochentag;

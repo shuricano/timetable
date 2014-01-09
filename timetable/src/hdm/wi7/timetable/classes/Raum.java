@@ -9,11 +9,12 @@ public class Raum extends TimetableObject {
 	//Alex arbeitet hier, und testet diese funktion von git
 
 	public short getRaumNummer() {
+		int raumNummer = 0;
 		return raumNummer;
 	}
 	
-	public short setRaumNummer(){
-		return raumNummer;
+	public void setRaumNummer(int raumnr){
+		raumNummer = raumnr;
 	} 
 
 	public int getRaumKapazität(){
